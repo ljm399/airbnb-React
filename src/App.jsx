@@ -6,6 +6,7 @@ import AppFooter from './components/app-footer';
 import { useScrollTop } from './hooks';
 
 export default memo(function App() {
+  
   useScrollTop()
   return (
     <div className='app'>

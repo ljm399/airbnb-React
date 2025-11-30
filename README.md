@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# Airbnb 房屋租赁平台
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📖 项目简介
 
-## Available Scripts
+这是一个**基于 React 18 的 Airbnb 房屋租赁平台项目**，完整实现了房屋浏览、搜索、详情展示等核心功能。项目采用现代化的 React 技术栈，包括 Redux Toolkit 状态管理、React Router 路由、Ant Design & Material-UI 组件库，实现了高性能的单页面应用。
 
-In the project directory, you can run:
+## 🖼️ 项目展示
 
-### `npm start`
+### 首页部分展示
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![首页展示](./doc/images/img1.png)
+![房源列表](./doc/images/img2.png)
+![房源详情](./doc/images/img3.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 详情列表展示
 
-### `npm run build`
+![房源列表](./doc/images/github2.png)
+![房源列表](./doc/images/github3.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 详情页网络请求中
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![房源列表](./doc/images/github4.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 详情页具体房源详情展示
 
-### `npm run eject`
+![房源列表](./doc/images/github5.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 点击具体房源进入具体房源详情页
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![房源列表](./doc/images/github6.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 图片查看器
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![房源列表](./doc/images/github7.png)
 
-## Learn More
+## 🛠️ 技术栈
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 核心技术
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **React 18**：现代化的前端框架，使用函数式组件 + Hooks
+- **Redux Toolkit**：官方推荐的 Redux 状态管理工具
+- **React Router v7**：声明式路由管理
+- **Axios**：HTTP 请求库，封装网络请求
+- **styled-components**：CSS-in-JS 样式解决方案
 
-### Code Splitting
+### 技术亮点
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- **组件化开发**：抽离可复用的 base-ui 基础组件和业务组件
+- **状态管理**：Redux Toolkit 实现全局状态管理，提升开发效率
+- **UI 组件库**：Ant Design + Material-UI 双组件库结合使用
+- **样式方案**：styled-components + Less 混合使用
+- **工程化配置**：使用 CRACO 自定义 CRA 配置
+- **代码规范**：normalize.css 统一浏览器样式
+- **工具函数**：underscore 工具库提升开发效率
 
-### Analyzing the Bundle Size
+## 📚 优化
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- ✅ React Hooks 的深入应用（useState、useEffect、自定义 Hooks）
+- ✅ Redux Toolkit 现代化状态管理
+- ✅ React Router v7 路由配置与导航
+- ✅ Axios 网络请求封装与拦截器
+- ✅ styled-components CSS-in-JS 最佳实践
+- ✅ 组件化开发与代码复用
+- ✅ CRACO 自定义 Webpack 配置
+- ✅ 多 UI 组件库的整合应用
